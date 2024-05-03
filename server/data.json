@@ -1,0 +1,4411 @@
+{
+  "jugadores": [
+    {
+      "id": "4fed",
+      "nombre": "Fidel",
+      "apellido": "Bonilla",
+      "fechaNacimiento": "2004-09-08",
+      "genero": "",
+      "estado": "",
+      "email": "fbonillamontalvo@gmail.com",
+      "Juego": [
+        {
+          "id": "1",
+          "fechaHoraInicio": "00.00.00",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "00.00.00",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "MSTS1",
+          "fechaHoraInicio": "2024-04-15 09:41:56",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "1",
+          "qytSemilla": "0",
+          "qytAgua": "3",
+          "qytFertilizante": "2",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "1",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "2",
+              "qytFertilizantePar": "2",
+              "desbloqueada": "true",
+              "productividad": "20"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "XVSZJ",
+          "fechaHoraInicio": "2024-04-15 09:46:13",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "2",
+          "noContratos": "0",
+          "balance": "-287500",
+          "qytTrabajador": "6",
+          "qytHerramienta": "31",
+          "qytSemilla": "0",
+          "qytAgua": "4",
+          "qytFertilizante": "8",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "2",
+              "qytHerramientaPar": "1",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "1",
+              "qytFertilizantePar": "6",
+              "desbloqueada": "true",
+              "productividad": "70"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "2",
+              "qytHerramientaPar": "30",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "true",
+              "productividad": "30"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "IBRHT",
+          "fechaHoraInicio": "2024-04-15 09:50:40",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "tradicional",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "0MQ13",
+          "fechaHoraInicio": "2024-04-15 09:53:40",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "tradicional",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "KKL5P",
+          "fechaHoraInicio": "2024-04-15 09:54:06",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "tradicional",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "3O9JV",
+          "fechaHoraInicio": "2024-04-15 09:55:35",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "tradicional",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "T14IZ",
+          "fechaHoraInicio": "2024-04-15 09:57:31",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "RLJXK",
+          "fechaHoraInicio": "2024-04-15 09:57:42",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "XN7J3",
+          "fechaHoraInicio": "2024-04-15 09:58:14",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "WBIQG",
+          "fechaHoraInicio": "2024-04-15 09:58:44",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "WO985",
+          "fechaHoraInicio": "2024-04-15 10:00:47",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "GS6AE",
+          "fechaHoraInicio": "2024-04-15 10:01:26",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "A3ZXC",
+          "fechaHoraInicio": "2024-04-15 10:01:36",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "AJ8O5",
+          "fechaHoraInicio": "2024-04-15 10:04:09",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "SIGKD",
+          "fechaHoraInicio": "2024-04-15 10:04:36",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "7PIB0",
+          "fechaHoraInicio": "2024-04-15 10:05:27",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "TV7A5",
+          "fechaHoraInicio": "2024-04-15 10:06:43",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "6Z43D",
+          "fechaHoraInicio": "2024-04-16 09:07:20",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "ZWZX3",
+          "fechaHoraInicio": "2024-04-16 09:09:14",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "D5A08",
+          "fechaHoraInicio": "2024-04-16 09:09:55",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "P5FOT",
+          "fechaHoraInicio": "2024-04-16 09:10:00",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "VI7EE",
+          "fechaHoraInicio": "2024-04-16 09:10:18",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "3Q3P9",
+          "fechaHoraInicio": "2024-04-16 09:14:41",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "Z415H",
+          "fechaHoraInicio": "2024-04-23 09:27:14",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "8CRQH",
+          "fechaHoraInicio": "2024-04-23 10:40:51",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "informal",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "GDFRG",
+          "fechaHoraInicio": "2024-04-23 10:41:48",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "BL5WY",
+          "fechaHoraInicio": "2024-04-23 12:04:07",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "7NVWB",
+          "fechaHoraInicio": "2024-04-23 12:05:04",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": null,
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "N3JMT",
+          "fechaHoraInicio": "2024-04-23 12:07:55",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqpr",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "6QZQO",
+          "fechaHoraInicio": "2024-04-23 21:58:37",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "G7HYT",
+          "fechaHoraInicio": "2024-04-24 10:42:15",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "VMH5P",
+          "fechaHoraInicio": "2024-04-24 10:45:11",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "E1NKH",
+          "fechaHoraInicio": "2024-04-24 11:19:59",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": null,
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "59BN8",
+          "fechaHoraInicio": "2024-04-24 11:30:42",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "3",
+          "noContratos": "6",
+          "balance": "150075.85",
+          "qytTrabajador": "11",
+          "qytHerramienta": "16",
+          "qytSemilla": "16",
+          "qytAgua": "1",
+          "qytFertilizante": "25",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "1",
+              "qytHerramientaPar": "1",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "2",
+              "qytFertilizantePar": "2",
+              "desbloqueada": "true",
+              "productividad": "50"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "2",
+              "qytHerramientaPar": "1",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "2",
+              "qytFertilizantePar": "2",
+              "desbloqueada": "true",
+              "productividad": "50"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "DV3S3",
+          "fechaHoraInicio": "2024-04-24 12:11:38",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "4",
+          "qytHerramienta": "4",
+          "qytSemilla": "4",
+          "qytAgua": "4",
+          "qytFertilizante": "4",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "X08CP",
+          "fechaHoraInicio": "2024-04-24 21:59:09",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "572f",
+      "nombre": "Alex",
+      "apellido": "ASD",
+      "fechaNacimiento": "2004-10-31",
+      "genero": "Otro",
+      "estado": "Aguascalientes",
+      "email": "aleyiya09@gmail.com",
+      "Juego": [
+        {
+          "fechaHoraInicio": "00.00.00",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "00.00.00",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ef5d",
+      "nombre": "Alex",
+      "apellido": "ASD",
+      "fechaNacimiento": "2004-10-31",
+      "genero": "Otro",
+      "estado": "Aguascalientes",
+      "email": "fabonillamon@gmail.com",
+      "Juego": [
+        {
+          "id": "rAMn",
+          "fechaHoraInicio": "00.00.00",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "00.00.00",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5249",
+      "nombre": "Fidel",
+      "apellido": "Bonilla",
+      "fechaNacimiento": "2004-09-08",
+      "genero": "Hombre",
+      "estado": "San Luis Potosí",
+      "email": "a01798199@tec.mx",
+      "Juego": [
+        {
+          "id": "DANr",
+          "fechaHoraInicio": "2024-04-14 12:36:50",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "00.00.00",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "HOLA",
+          "fechaHoraInicio": "2024-04-14 12:34:07",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "00.00.00",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": null,
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "U7PRF",
+          "fechaHoraInicio": "2024-04-14 12:54:01",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "CNPXF",
+          "fechaHoraInicio": "2024-04-14 12:56:28",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "F5PBS",
+          "fechaHoraInicio": "2024-04-14 12:57:14",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "0HWOH",
+          "fechaHoraInicio": "2024-04-14 12:59:51",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "WTJHA",
+          "fechaHoraInicio": "2024-04-14 19:00:58",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "QN0K0",
+          "fechaHoraInicio": "2024-04-14 19:06:32",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "L215L",
+          "fechaHoraInicio": "2024-04-14 19:09:07",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "easy",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "60J56",
+          "fechaHoraInicio": "2024-04-14 20:01:22",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "HY1L1",
+          "fechaHoraInicio": "2024-04-14 20:07:08",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "THZFJ",
+          "fechaHoraInicio": "2024-04-14 20:13:04",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "tradicional",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "RPF9X",
+          "fechaHoraInicio": "2024-04-14 20:17:53",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "2",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "J1UR5",
+          "fechaHoraInicio": "2024-04-14 20:24:06",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "2",
+              "qytHerramientaPar": "1",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "3",
+              "qytFertilizantePar": "2",
+              "desbloqueada": "false",
+              "productividad": "50"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "3Y60L",
+          "fechaHoraInicio": "2024-04-14 20:31:31",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "informal",
+          "noEstaciones": "3",
+          "noContratos": "0",
+          "balance": "-425691.820681095",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "1",
+              "qytHerramientaPar": "1",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "1",
+              "qytFertilizantePar": "1",
+              "desbloqueada": "true",
+              "productividad": "40"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "YBCLW",
+          "fechaHoraInicio": "2024-04-14 20:48:13",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "3",
+          "noContratos": "0",
+          "balance": "-31400",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "2",
+              "qytHerramientaPar": "1",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "3",
+              "qytFertilizantePar": "2",
+              "desbloqueada": "true",
+              "productividad": "50"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "2",
+              "qytHerramientaPar": "30",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "9",
+              "desbloqueada": "true",
+              "productividad": "50"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "JIYZF",
+          "fechaHoraInicio": "2024-04-14 21:07:11",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "-250000",
+          "qytTrabajador": "10",
+          "qytHerramienta": "61",
+          "qytSemilla": "0",
+          "qytAgua": "16",
+          "qytFertilizante": "28",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "2",
+              "qytHerramientaPar": "1",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "2",
+              "qytFertilizantePar": "2",
+              "desbloqueada": "true",
+              "productividad": "70"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "2",
+              "qytHerramientaPar": "30",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "12",
+              "desbloqueada": "true",
+              "productividad": "50"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "2",
+              "qytHerramientaPar": "30",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "true",
+              "productividad": "30"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "5EJ2K",
+          "fechaHoraInicio": "2024-04-15 09:36:46",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "KCXVL",
+          "fechaHoraInicio": "2024-04-15 09:37:06",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "verqor",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "PR8JY",
+          "fechaHoraInicio": "2024-04-15 09:38:23",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "TEPOU",
+          "fechaHoraInicio": "2024-04-15 09:39:21",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        },
+        {
+          "id": "964PD",
+          "fechaHoraInicio": "2024-04-15 09:40:14",
+          "fechaHoraFin": "00.00.00",
+          "tipoFinanciamiento": "",
+          "noEstaciones": "1",
+          "noContratos": "0",
+          "balance": "0",
+          "qytTrabajador": "0",
+          "qytHerramienta": "0",
+          "qytSemilla": "0",
+          "qytAgua": "0",
+          "qytFertilizante": "0",
+          "Parcela": [
+            {
+              "id": "1",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "2",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "3",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "4",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            },
+            {
+              "id": "5",
+              "numeroParcela": "1",
+              "qytTrabajadorPar": "0",
+              "qytHerramientaPar": "0",
+              "qytSemillaPar": "0",
+              "qytAguaPar": "0",
+              "qytFertilizantePar": "0",
+              "desbloqueada": "false",
+              "productividad": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "id": "293c",
+      "email": "a01798199@tec.mx"
+    },
+    {
+      "id": "dae3",
+      "email": "a01798199@tec.mx"
+    },
+    {
+      "id": "ca9d",
+      "email": "fbonillamontalvo@gmail.com"
+    },
+    {
+      "id": "e17c",
+      "email": "fbonillamontalvo@gmail.com"
+    },
+    {
+      "id": "e33b",
+      "email": "fbonillamontalvo@gmail.com"
+    },
+    {
+      "id": "b3ff",
+      "email": "fbonillamontalvo@gmail.com"
+    },
+    {
+      "id": "b57c",
+      "email": "fbonillamontalvo@gmail.com"
+    },
+    {
+      "id": "bf69",
+      "email": "fbonillamontalvo@gmail.com"
+    },
+    {
+      "id": "79e6",
+      "email": "fbonillamontalvo@gmail.com"
+    }
+  ]
+}

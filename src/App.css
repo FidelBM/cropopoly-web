@@ -1,0 +1,444 @@
+.form-container {
+  width: 350px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+}
+
+.Background{
+  background-color: #fff;
+  align-self: center;
+}
+.link:hover{
+  color: white;
+
+}
+.link{
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: teal;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px 0 30px 0;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 15px;
+}
+
+.input {
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  outline: 0 !important;
+  box-sizing: border-box;
+  padding: 12px 15px;
+  background-color: #fff;
+  color: black;
+  width: 500px;
+}
+
+.page-link {
+  text-decoration: underline;
+  margin: 0;
+  text-align: end;
+  color: #747474;
+  text-decoration-color: #747474;
+}
+
+.page-link-label {
+  cursor: pointer;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.page-link-label:hover {
+  color: #000;
+}
+
+.form-btn {
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: teal;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-btn:active {
+  box-shadow: none;
+}
+
+.sign-up-label {
+  margin: 0;
+  font-size: 10px;
+  color: #747474;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sign-up-link {
+  margin-left: 1px;
+  font-size: 11px;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  color: teal;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.apple-login-button,
+    .google-login-button {
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  gap: 5px;
+}
+
+.error{
+  color: red;
+  font-size: 17px;
+  margin: 0;
+
+}
+
+.apple-login-button {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+.google-login-button {
+  border: 2px solid #747474;
+}
+
+.apple-icon,
+    .google-icon {
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.App {
+  text-align: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  margin: 0;
+  padding: 0;
+  background-image: url("Images/Fondo.png");
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: #3A332A;
+}
+
+
+.App-Game-Color {
+  background-color: #D3A96D;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #3A332A;
+
+}
+
+.App-Basic-Color {
+  
+  background-color: #E2CFAE;
+  background-size: cover;
+  
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #3A332A;
+}
+
+.App-Separated-Container
+{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 80vw;
+  height: auto;
+  /*height: 70vh;*/
+  
+  background-size: cover;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.App-half-ran
+{
+  height: 100%;
+  width: 100px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #E2CFAE;
+  height: auto;
+
+  background-size: cover;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+  width: 80vw;
+  display: flex;
+  color: #3A332A;
+}
+
+.App-half-dark
+{
+  width: 100px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #D3A96D;
+  height: 100%;
+
+  flex: 1;
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+  width: 80vw;
+  display: flex;
+  color: #3A332A
+
+  
+
+  /*
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  */
+}
+.App-basic-font
+{
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: medium;
+  line-height: 2;
+  justify-content: center;
+  color: #3A332A;
+}
+
+.App-half-light
+{
+  width: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #E2CFAE;
+
+  background-size: cover;
+  /*display: flex;*/
+  flex: 1;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  height: 50vh;
+  width: 80vw;
+  display: flex;
+  color: #3A332A;
+
+}
+
+.App-half-ran, .App-half-dark, .App-half-light > * {
+  flex-grow: 1;
+}
+
+.App-reactive-image{
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+/*
+.App-link {
+  color: #61dafb;
+}
+
+
+@media(max-width: 768px)
+{
+  .App-half{
+    flex-basis: 100%;
+  }
+  .App-Game-Container {
+    grid-template-columns: 1fr; 
+  }
+  .App-Separated-Container {
+    flex-direction: column;
+  }
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.fancy-button {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #007BFF;
+  border-radius: 4px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.fancy-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.App-small-image{
+  width: 230px;
+  max-width: 100%;
+  height: 100%;
+}
