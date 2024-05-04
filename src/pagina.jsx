@@ -1,3 +1,8 @@
+/*
+Autor:            Fidel Bonilla
+
+El código 
+*/
 import { useState } from 'react'; // Importa la función useState desde React
 import backgroundImage from './assets/Images/Fondo.png'; // Importa la imagen de fondo
 import './App.css'; // Importa los estilos CSS
