@@ -1,5 +1,8 @@
+/*
+Autor:            Fidel Bonilla
 
-// Autor:      Fidel Bonilla
+El código es el uso de Autenticador de firebase
+*/
 import React, { useState, useEffect, createContext, useContext } from "react";
 import { auth } from "../firebase/firebase.config"; // Importa la configuración e instancia de autenticación de Firebase
 import {
