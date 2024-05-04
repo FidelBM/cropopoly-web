@@ -1,7 +1,7 @@
 /*
 Autor:            Fidel Bonilla
 
-El código 
+El código muestra el juego de unity
 */
 import { useState, useEffect, Fragment, useContext } from 'react'; // Importa useState, useEffect, Fragment y useContext desde React
 import { Unity, useUnityContext } from "react-unity-webgl"; // Importa Unity y useUnityContext desde react-unity-webgl
