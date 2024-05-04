@@ -1,7 +1,7 @@
 /*
 Autor:            Fidel Bonilla 
 
-El código 
+El código es un formulario de registro que autentica con Fidebase y manda datos a la bade de datos
 */
 import React, { useState } from "react"; // Importa React y useState
 import "../App.css"; // Importa estilos CSS
