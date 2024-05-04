@@ -1,3 +1,8 @@
+/*
+Autor:            Fidel Bonilla 
+
+El código 
+*/
 import React, { useEffect, useState } from "react"; // Importa React y los hooks necesarios
 import Box from '@mui/material/Box'; // Importa el componente Box de Material-UI
 import { DataGrid } from '@mui/x-data-grid'; // Importa el componente DataGrid de Material-UI
