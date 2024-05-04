@@ -1,7 +1,7 @@
 /*
 Autor:            Estefanía Rico
 
-El código 
+El código es una grafica de pastel de las localidades de los jugadores
 */
 import React, { useEffect, useState } from "react"; // Importa React y los hooks necesarios
 import { ResponsivePie } from "@nivo/pie"; // Importa el componente de gráfico de pastel de Nivo
