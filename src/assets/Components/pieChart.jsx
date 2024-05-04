@@ -1,11 +1,14 @@
+
+// Autor:      Estefania Rico
 import React, { useEffect, useState } from "react";
 import { ResponsivePie } from "@nivo/pie";
 
+// Función para calcular la cantidad de jugadores por localidad
 const calculateLocalityOccurrences = (players) => {
   const localityOccurrences = {};
 
   players.forEach(player => {
-    const locality = player.estado || 'Unknown'; // Use 'Unknown' if locality is missing
+    const locality = player.estado || 'Unknown'; // Utiliza 'Unknown' si la localidad está ausente
     if (locality in localityOccurrences) {
       localityOccurrences[locality] += 1;
     } else {
@@ -16,10 +19,14 @@ const calculateLocalityOccurrences = (players) => {
   return localityOccurrences;
 };
 
+// Componente del gráfico de pastel
 const PieChart = () => {
+  // Estado para almacenar los datos del juego
   const [gameData, setGameData] = useState(null);
+  // Estado para almacenar la cantidad de jugadores por localidad
   const [localityOccurrences, setLocalityOccurrences] = useState(null);
 
+  // Efecto para cargar los datos del juego desde la API
   useEffect(() => {
     fetch('https://cropopoly-server-production.up.railway.app/jugadores')
       .then(response => response.json())
@@ -27,6 +34,7 @@ const PieChart = () => {
       .catch(error => console.error('Error:', error));
   }, []);
 
+  // Efecto para calcular la cantidad de jugadores por localidad cuando los datos del juego cambian
   useEffect(() => {
     if (gameData) {
       const occurrences = calculateLocalityOccurrences(gameData);
@@ -34,6 +42,7 @@ const PieChart = () => {
     }
   }, [gameData]);
 
+  // Renderiza el componente del gráfico de pastel
   if (!gameData) {
     return <div>Loading...</div>;
   }
@@ -43,6 +52,7 @@ const PieChart = () => {
       <p className="text-xl sm:text-xl md:text-1xl lg:text-1xl xl:text-2xl">Gráfica de Localidades México</p>
       {localityOccurrences && (
         <ResponsivePie
+          // Configuración del gráfico de pastel
           data={Object.entries(localityOccurrences).map(([locality, count]) => ({
             id: locality,
             label: locality,
