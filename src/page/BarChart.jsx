@@ -1,7 +1,7 @@
 /*
 Autor:            Estefanía Rico
 
-El código 
+El código es para generar grafica de barras de género
 */
 import React, { useEffect, useState } from "react"; // Importa React, useEffect y useState desde React
 import { ResponsiveWaffle } from "@nivo/waffle"; // Importa el componente ResponsiveWaffle de la librería @nivo/waffle
