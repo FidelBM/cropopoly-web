@@ -1,5 +1,8 @@
-// Autor:    Fidel Bonilla
+/*
+Autor:            Fidel Bonilla
 
+El código es la coreccion de Firebase con las credenciales
+*/
 // Importa las funciones que necesitas de los SDK que necesitas
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
