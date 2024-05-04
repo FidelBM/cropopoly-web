@@ -1,5 +1,7 @@
+
+// Autor:      Fidel Bonilla
 import React, { useState, useEffect, createContext, useContext } from "react";
-import { auth } from "../firebase/firebase.config"; // Import Firebase authentication configuration and instance
+import { auth } from "../firebase/firebase.config"; // Importa la configuración e instancia de autenticación de Firebase
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
@@ -7,38 +9,38 @@ import {
   signInWithPopup,
   signOut,
   onAuthStateChanged,
-} from "firebase/auth"; // Import Firebase authentication functions
+} from "firebase/auth"; // Importa los métodos de autenticación de Firebase
 
-// Create authentication context
+// Crea el contexto de autenticación
 export const authContext = createContext();
 
-// Custom hook to use authentication context
+// Hook personalizado para usar el contexto de autenticación
 export const useAuth = () => {
   const context = useContext(authContext);
   if (!context) {
-    console.log("error creating auth context");
+    console.log("error creando el contexto de autenticación");
   }
   return context;
 };
 
-// Authentication provider component
+// Componente proveedor de autenticación
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(""); // State to hold the authenticated user
+  const [user, setUser] = useState(""); // Estado para almacenar el usuario autenticado
   
-  // Effect to listen for authentication state changes
+  // Efecto para escuchar cambios en el estado de autenticación
   useEffect(() => {
     const subscribed = onAuthStateChanged(auth, (currentUser) => {
       if (!currentUser) {
-        console.log("no hay usuario suscrito");
-        setUser(""); // Set user state to empty if no user is authenticated
+        console.log("no hay usuario autenticado");
+        setUser(""); // Establece el estado de usuario como vacío si no hay usuario autenticado
       } else {
-        setUser(currentUser); // Set user state to current user if authenticated
+        setUser(currentUser); // Establece el estado de usuario como el usuario actual si está autenticado
       }
     });
-    return () => subscribed(); // Unsubscribe from onAuthStateChanged when component unmounts
+    return () => subscribed(); // Desuscribe onAuthStateChanged cuando el componente se desmonta
   }, []);
 
-  // Function to register a new user with email and password
+  // Función para registrar un nuevo usuario con correo electrónico y contraseña
   const register = async (email, password) => {
     const response = await createUserWithEmailAndPassword(
       auth,
@@ -48,25 +50,25 @@ export function AuthProvider({ children }) {
     console.log(response);
   };
  
-  // Function to login with email and password
+  // Función para iniciar sesión con correo electrónico y contraseña
   const login = async (email, password) => {
     const response = await signInWithEmailAndPassword(auth, email, password);
     console.log(response);
   };
  
-  // Function to login with Google
+  // Función para iniciar sesión con Google
   const loginWithGoogle = async () => {
     const responseGoogle = new GoogleAuthProvider();
     return await signInWithPopup(auth, responseGoogle);
   };
 
-  // Function to logout
+  // Función para cerrar sesión
   const logout = async () => {
     const response = await signOut(auth);
     console.log(response);
   };
 
-  // Provide the authentication context with the authentication functions and user state
+  // Proporciona el contexto de autenticación con las funciones de autenticación y el estado de usuario
   return (
     <authContext.Provider 
       value={{
