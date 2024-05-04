@@ -1,3 +1,8 @@
+/*
+Autor:            Estefanía Rico
+
+El código 
+*/
 import React, { useEffect, useState } from "react"; // Importa React, useEffect y useState desde React
 import { ResponsiveLine } from "@nivo/line"; // Importa ResponsiveLine desde la librería Nivo
 
