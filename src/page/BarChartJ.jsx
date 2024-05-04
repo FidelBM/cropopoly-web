@@ -1,3 +1,8 @@
+/*
+Autor:            Estefanía Rico
+
+El código 
+*/
 import React, { useEffect, useState } from "react"; // Importa React, useEffect y useState desde React
 import { ResponsivePie } from "@nivo/pie"; // Importa el componente ResponsivePie de la librería @nivo/pie
 
