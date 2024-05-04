@@ -1,3 +1,4 @@
+// Autor:    Fidel Bonilla
 import { useState, useEffect, Fragment, useContext } from 'react'; // Importa useState, useEffect, Fragment y useContext desde React
 import { Unity, useUnityContext } from "react-unity-webgl"; // Importa Unity y useUnityContext desde react-unity-webgl
 import { Link } from "react-router-dom"; // Importa Link desde React Router DOM
