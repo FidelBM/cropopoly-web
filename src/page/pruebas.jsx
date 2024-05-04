@@ -1,7 +1,7 @@
 /*
 Autor:            Fidel Bonilla 
 
-El código 
+El código muestra el Ranking del jugador con un estilo personalizado
 */
 import React, { useEffect, useState } from "react";
 import Box from '@mui/material/Box';
