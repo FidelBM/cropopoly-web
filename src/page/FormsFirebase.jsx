@@ -1,7 +1,7 @@
 /*
 Autor:            Fidel Bonilla 
 
-El código 
+El código es un forms pusando la autenticacion de google
 */
 
 import React, { useState } from "react";
