@@ -1,7 +1,7 @@
 /*
 Autor:            Fidel Bonilla 
 
-El código 
+El código muestra el Rankin de los jugadores tomando el cuenta las monedas de cada juego
 */
 import React, { useEffect, useState } from "react"; // Importa React y los hooks necesarios
 import Box from '@mui/material/Box'; // Importa el componente Box de Material-UI
