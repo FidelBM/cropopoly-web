@@ -1,7 +1,7 @@
 /*
 Autor:            Estefanía Rico
 
-El código 
+El código muestra el dazhboard de los datos de los jugadores
 */
 import React, { useContext, useState, useEffect } from "react"; // Importa React, useContext, useState y useEffect desde React
 import LineChart from "./LineChart"; // Importa el componente LineChart
