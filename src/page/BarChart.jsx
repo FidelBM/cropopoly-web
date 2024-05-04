@@ -1,25 +1,27 @@
-import React, { useEffect, useState } from "react";
-import { ResponsiveWaffle } from "@nivo/waffle";
+import React, { useEffect, useState } from "react"; // Importa React, useEffect y useState desde React
+import { ResponsiveWaffle } from "@nivo/waffle"; // Importa el componente ResponsiveWaffle de la librería @nivo/waffle
 
 const PlayerGenderStatistics = () => {
-  const [gameData, setGameData] = useState(null);
-  const [genderFrequencies, setGenderFrequencies] = useState({});
+  const [gameData, setGameData] = useState(null); // Estado para almacenar los datos del juego
+  const [genderFrequencies, setGenderFrequencies] = useState({}); // Estado para almacenar las frecuencias de género
 
   useEffect(() => {
-    fetch('https://cropopoly-server-production.up.railway.app/jugadores')
-      .then(response => response.json())
-      .then(data => {
+    // Efecto de lado para cargar los datos del juego cuando el componente se monta
+    fetch("https://cropopoly-server-production.up.railway.app/jugadores")
+      .then((response) => response.json())
+      .then((data) => {
         setGameData(data);
-        calculateGenderFrequencies(data);
+        calculateGenderFrequencies(data); // Calcular las frecuencias de género cuando se cargan los datos
       })
-      .catch(error => console.error('Error:', error));
+      .catch((error) => console.error("Error:", error));
   }, []);
 
   const calculateGenderFrequencies = (data) => {
+    // Función para calcular las frecuencias de género a partir de los datos de los jugadores
     const frequencies = {};
 
     data.forEach((player) => {
-      const gender = player.genero || 'sin respuesta'; // Handle undefined gender
+      const gender = player.genero || "sin respuesta"; // Manejar género no definido
       if (gender in frequencies) {
         frequencies[gender]++;
       } else {
@@ -31,30 +33,31 @@ const PlayerGenderStatistics = () => {
   };
 
   if (!gameData) {
-    return <div>Loading...</div>;
+    return <div>Loading...</div>; // Muestra un mensaje de carga si los datos aún no están disponibles
   }
 
-  
+  // Formatear datos para el gráfico de waffle
   const waffleData = Object.keys(genderFrequencies).map((gender) => ({
     id: gender,
     label: gender.charAt(0).toUpperCase() + gender.slice(1),
     value: genderFrequencies[gender],
   }));
 
+  // Renderizar el componente ResponsiveWaffle con los datos
   return (
     <div style={{ height: "600px" }}>
       <h2>GRÁFICA DE WAFFLE 'GÉNERO DE JUGADORES'</h2>
       <ResponsiveWaffle
         data={waffleData}
-        total={gameData.length} // Total number of players
-        rows={15} // Number of rows in the waffle chart
-        columns={20} 
-        padding={3} 
-        margin={{ top: 10, right: 10, bottom: 10, left: 10 }} // Chart margins
-        colors={{ scheme: "paired" }} 
-        borderColor={{ from: 'color', modifiers: [['darker', 0.5]] }} 
-        animate={true} // Enable animations
-        legends={[
+        total={gameData.length} // Número total de jugadores
+        rows={15} // Número de filas en el gráfico de waffle
+        columns={20} // Número de columnas en el gráfico de waffle
+        padding={3} // Espaciado entre celdas
+        margin={{ top: 10, right: 10, bottom: 10, left: 10 }} // Márgenes del gráfico
+        colors={{ scheme: "paired" }} // Esquema de colores
+        borderColor={{ from: "color", modifiers: [["darker", 0.5]] }} // Color del borde
+        animate={true} // Habilitar animaciones
+        legends={[ // Leyenda del gráfico
           {
             anchor: "top-left",
             direction: "row",
@@ -84,4 +87,5 @@ const PlayerGenderStatistics = () => {
   );
 };
 
-export default PlayerGenderStatistics;
+export default PlayerGenderStatistics; // Exporta el componente PlayerGenderStatistics
+
