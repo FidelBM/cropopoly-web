@@ -1,3 +1,10 @@
+/*
+Autor:            Mariana Balderrábano
+
+El código es para definirel estilo de la página principal
+*/
+
+/* Estilo del contenedor principal */
 .form-container {
   width: 350px;
   height: 500px;
@@ -8,203 +15,16 @@
   padding: 20px 30px;
 }
 
+/* Estilo del fondo */
 .Background{
   background-color: #fff;
   align-self: center;
 }
-.link:hover{
-  color: white;
 
-}
-.link{
-  padding: 10px 15px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  border-radius: 20px;
-  border: 0 !important;
-  outline: 0 !important;
-  background: teal;
-  color: white;
-  cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.title {
-  text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 10px 0 30px 0;
-  font-size: 28px;
-  font-weight: 800;
-}
-
-.form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  margin-bottom: 15px;
-}
-
-.input {
-  border-radius: 20px;
-  border: 1px solid #c0c0c0;
-  outline: 0 !important;
-  box-sizing: border-box;
-  padding: 12px 15px;
-  background-color: #fff;
-  color: black;
-  width: 500px;
-}
-
-.page-link {
-  text-decoration: underline;
-  margin: 0;
-  text-align: end;
-  color: #747474;
-  text-decoration-color: #747474;
-}
-
-.page-link-label {
-  cursor: pointer;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.page-link-label:hover {
-  color: #000;
-}
-
-.form-btn {
-  padding: 10px 15px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  border-radius: 20px;
-  border: 0 !important;
-  outline: 0 !important;
-  background: teal;
-  color: white;
-  cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.form-btn:active {
-  box-shadow: none;
-}
-
-.sign-up-label {
-  margin: 0;
-  font-size: 10px;
-  color: #747474;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.sign-up-link {
-  margin-left: 1px;
-  font-size: 11px;
-  text-decoration: underline;
-  text-decoration-color: teal;
-  color: teal;
-  cursor: pointer;
-  font-weight: 800;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.buttons-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 20px;
-  gap: 15px;
-}
-
-.apple-login-button,
-    .google-login-button {
-  border-radius: 20px;
-  box-sizing: border-box;
-  padding: 10px 15px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 11px;
-  gap: 5px;
-}
-
-.error{
-  color: red;
-  font-size: 17px;
-  margin: 0;
-
-}
-
-.apple-login-button {
-  background-color: #000;
-  color: #fff;
-  border: 2px solid #000;
-}
-
-.google-login-button {
-  border: 2px solid #747474;
-}
-
-.apple-icon,
-    .google-icon {
-  font-size: 18px;
-  margin-bottom: 1px;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-
+/* Estilos generales de página*/
 .App {
   text-align: center;
   background-size: cover;
-  /*background-repeat: no-repeat;
-  background-attachment: fixed;*/
   background-position-x: center;
   display: flex;
   flex-direction: column;
@@ -212,12 +32,12 @@
   justify-content: center;
 }
 
+/* Estilos del encabezado de la página */
 .App-header {
   margin: 0;
   padding: 0;
   background-image: url("Images/Fondo.png");
   background-size: cover;
-  /*background-repeat: no-repeat;*/
   background-attachment: fixed;
   background-position-x: center;
   display: flex;
@@ -228,23 +48,7 @@
   color: #3A332A;
 }
 
-
-.App-Game-Color {
-  background-color: #D3A96D;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #3A332A;
-
-}
-
+/* Estilo de contenedor con color básico*/
 .App-Basic-Color {
   
   background-color: #E2CFAE;
@@ -261,6 +65,7 @@
   color: #3A332A;
 }
 
+/* Estilo del Contenedor separado */
 .App-Separated-Container
 {
   padding: 0;
@@ -276,6 +81,7 @@
   align-items: flex-start;
 }
 
+/* Estilo del contenedor de ranking */
 .App-half-ran
 {
   height: 100%;
@@ -296,6 +102,7 @@
   color: #3A332A;
 }
 
+/* Estilo del contenedor con un color obscuro */
 .App-half-dark
 {
   width: 100px;
@@ -315,17 +122,9 @@
   width: 80vw;
   display: flex;
   color: #3A332A
-
-  
-
-  /*
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  box-sizing: border-box;
-  */
 }
+
+/* Estilo de la fuente básica */
 .App-basic-font
 {
   padding-right: 10px;
@@ -336,6 +135,7 @@
   color: #3A332A;
 }
 
+/* Estilo del contenedor con un color claro */
 .App-half-light
 {
   width: 100px;
@@ -358,46 +158,208 @@
 
 }
 
+/* Estilo para que sea responsivo */
 .App-half-ran, .App-half-dark, .App-half-light > * {
   flex-grow: 1;
 }
 
+/* Estilo de imagen reactiva */
 .App-reactive-image{
   width: auto;
   max-width: 100%;
   height: 100%;
 }
 
-/*
-.App-link {
-  color: #61dafb;
-}
 
-
-@media(max-width: 768px)
-{
-  .App-half{
-    flex-basis: 100%;
-  }
-  .App-Game-Container {
-    grid-template-columns: 1fr; 
-  }
-  .App-Separated-Container {
-    flex-direction: column;
-  }
+/* Default */
+.link:hover{
+  color: white;
 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Default */
+.link{
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: teal;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-*/
 
+/* Default */
+.title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px 0 30px 0;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* Default */
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 15px;
+}
+
+/* Default */
+.input {
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  outline: 0 !important;
+  box-sizing: border-box;
+  padding: 12px 15px;
+  background-color: #fff;
+  color: black;
+  width: 500px;
+}
+
+/* Default */
+.page-link {
+  text-decoration: underline;
+  margin: 0;
+  text-align: end;
+  color: #747474;
+  text-decoration-color: #747474;
+}
+
+/* Default */
+.page-link-label {
+  cursor: pointer;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Default */
+.page-link-label:hover {
+  color: #000;
+}
+
+/* Default */
+.form-btn {
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: teal;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Default */
+.form-btn:active {
+  box-shadow: none;
+}
+
+/* Default */
+.sign-up-label {
+  margin: 0;
+  font-size: 10px;
+  color: #747474;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Default */
+.sign-up-link {
+  margin-left: 1px;
+  font-size: 11px;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  color: teal;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Default */
+.buttons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+/* Default */
+.apple-login-button,
+    .google-login-button {
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  gap: 5px;
+}
+
+/* Default */
+.error{
+  color: red;
+  font-size: 17px;
+  margin: 0;
+
+}
+
+/* Default */
+.apple-login-button {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+/* Default */
+.google-login-button {
+  border: 2px solid #747474;
+}
+
+/* Default */
+.apple-icon,
+    .google-icon {
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+
+/* Default */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+/* Default */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/* Default */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Default */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -407,19 +369,51 @@
   }
 }
 
+/* Default */
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
+/* Default */
 .card {
   padding: 2em;
 }
 
+/* Default */
 .read-the-docs {
   color: #888;
 }
+
+/* Default */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Default */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Default */
+.card {
+  padding: 2em;
+}
+
+/* Default */
+.read-the-docs {
+  color: #888;
+}
+
+/* Default */
 .fancy-button {
   display: inline-block;
   font-size: 1.5em;
@@ -432,11 +426,13 @@
   transition: all 0.2s ease-in-out;
 }
 
+/* Default */
 .fancy-button:hover {
   background-color: #0056b3;
   transform: scale(1.1);
 }
 
+/* Estilo de una imagen con tamaño definido */
 .App-small-image{
   width: 230px;
   max-width: 100%;

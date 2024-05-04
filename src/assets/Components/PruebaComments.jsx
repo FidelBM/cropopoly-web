@@ -1,3 +1,11 @@
+/*
+Autor:            Mariana Balderrábano
+Modificado por:   Fidel Bonilla
+
+El código es para definir la sección de comentarios del videojuego 
+*/
+
+//Importa React y useEffect
 import React, { useEffect } from 'react';
 
 export const PruebaComments = () => {

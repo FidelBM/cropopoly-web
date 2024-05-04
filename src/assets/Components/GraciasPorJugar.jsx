@@ -1,5 +1,13 @@
+/*
+Autor:            Mariana Balderrábano
+
+El código es para definir un mensaje de agradecimiento por jugar
+*/
+
+//Importa React
 import React from 'react'
 
+//Inserta el mensaje de agradecimiento en el componente
 export const GraciasPorJugar = () => {
   return (
     <div className='App-Basic-Color'>

@@ -1,11 +1,21 @@
+/*
+Autor:            Mariana Balderrábano
+Modificado por:   Estefanía Rico 
+                  Fidel Bonilla
+
+El código es para definir la sección de ranking y estados desde donde de los usuarios
+*/
+
+//Importa React, useEffect y useRef
 import React, { useEffect, useRef } from 'react';
-import mexico from '../Images/mexico.png';
-import ran from '../Images/ran.png';
+
+//Importa el componente PieChart
 import PieChart from "./pieChart";
 import Ranking from "../../page/pruebas"
 
-
+//Divide al componente en dos para insertar gráficas de ranking y estados
 export const RanStatesComponent = () => {
+    //Define las referencias para ajustar altura de componentes
     const leftRef = useRef(null); 
     const rightRef = useRef(null);
 
@@ -20,7 +30,7 @@ export const RanStatesComponent = () => {
         }
     }, []);
 
-
+  //Inserta las gráficas de ranking y estados
   return (
     <React.Fragment>
         <div >

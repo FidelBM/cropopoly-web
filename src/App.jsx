@@ -1,3 +1,10 @@
+/*
+Autor:            Fidel Bonilla 
+Modificado por:   Arturo Barrios 
+
+El código 
+*/
+
 import { AuthProvider } from "./context/authContext"; // Importa el proveedor de autenticación
 import Game from "./page/Game"; // Importa la página Game
 import Registro from "./page/Registro"; // Importa la página Registro

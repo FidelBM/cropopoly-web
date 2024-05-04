@@ -1,7 +1,20 @@
+/*
+Autor:            Mariana Balderrábano
+Modificado por:   Estefanía Rico
+                  Lucio Reyes
+
+El código es para definir el componente de Murcs y su historia
+*/
+
+//Importa React y useRef
 import React, { useEffect, useRef } from 'react';
+
+//Importa la imagen de Murcs
 import Muuurcs from '../Images/Murcs.png'
 
+//Divide el componente en dos partes, para insertar la imagen y la historia de Murcs
 export const MurcsComponent = () => {
+  //Referencias para adaptar altura de componentes
   const leftRef = useRef(null); 
   const rightRef = useRef(null);
 
