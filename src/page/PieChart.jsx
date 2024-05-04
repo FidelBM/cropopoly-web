@@ -1,3 +1,8 @@
+/*
+Autor:            Fidel Bonilla 
+
+El código 
+*/
 import React, { useEffect, useState } from "react"; // Importa React y los hooks necesarios
 import { ResponsivePie } from "@nivo/pie"; // Importa el componente de gráfico de pastel de Nivo
 
