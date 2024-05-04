@@ -1,3 +1,8 @@
+/*
+Autor:            Fidel Bonilla 
+
+El código 
+*/
 import React, { useState } from "react"; // Importa React y useState
 import "../App.css"; // Importa estilos CSS
 import { AuthProvider, useAuth } from "../context/authContext"; // Importa AuthProvider y useAuth del contexto de autenticación
