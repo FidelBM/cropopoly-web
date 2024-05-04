@@ -1,3 +1,8 @@
+/*
+Autor:            Estefanía Rico
+
+El código 
+*/
 import React, { useContext, useState, useEffect } from "react"; // Importa React, useContext, useState y useEffect desde React
 import LineChart from "./LineChart"; // Importa el componente LineChart
 import BarChart from "./BarChart"; // Importa el componente BarChart
