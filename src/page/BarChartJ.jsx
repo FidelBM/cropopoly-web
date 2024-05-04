@@ -1,7 +1,7 @@
 /*
 Autor:            Estefanía Rico
 
-El código 
+El código hace un grafico de barras para mostrar el tipo de financiamiento
 */
 import React, { useEffect, useState } from "react"; // Importa React, useEffect y useState desde React
 import { ResponsivePie } from "@nivo/pie"; // Importa el componente ResponsivePie de la librería @nivo/pie
