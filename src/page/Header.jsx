@@ -1,3 +1,8 @@
+/*
+Autor:            Estefanía Rico
+
+El código 
+*/
 import { Typography, Box, useTheme } from "@mui/material"; // Importa Typography, Box y useTheme desde Material-UI
 import { tokens } from "../theme"; // Importa tokens desde el tema personalizado
 
