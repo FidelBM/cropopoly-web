@@ -1,7 +1,7 @@
 /*
 Autor:            Fidel Bonilla 
 
-El código 
+El código es el forms de login para autenticar el ususario y revisar la base de datos
 */
 import React, { useState } from "react"; // Importa React y useState desde React
 import "../App.css"; // Importa los estilos CSS
