@@ -1,7 +1,7 @@
 /*
 Autor:            Estefanpia Rico
 
-El código 
+El código muestra un mapa de México con datso de un json recibido
 */
 import React from "react"; // Importa React
 import { MapContainer, GeoJSON, TileLayer } from "react-leaflet"; // Importa componentes de React Leaflet
