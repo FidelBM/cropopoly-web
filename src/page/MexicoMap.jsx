@@ -1,3 +1,8 @@
+/*
+Autor:            Estefanpia Rico
+
+El código 
+*/
 import React from "react"; // Importa React
 import { MapContainer, GeoJSON, TileLayer } from "react-leaflet"; // Importa componentes de React Leaflet
 import mexicoGeoJSON from "./mexico.geo.json"; // Importa datos GeoJSON de México
