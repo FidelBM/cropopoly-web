@@ -1,4 +1,9 @@
-// Autor:    Fidel Bonilla
+/*
+Autor:            Fidel Bonilla 
+
+El código 
+*/
+
 import React, { useState } from "react";
 import "../App.css";
 import { useAuth } from "../context/authContext";
