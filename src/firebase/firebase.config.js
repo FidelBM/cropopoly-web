@@ -1,12 +1,12 @@
-// Import the functions you need from the SDKs you need
+// Autor:    Fidel Bonilla
+
+// Importa las funciones que necesitas de los SDK que necesitas
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// Configuración de tu aplicación Firebase
+// Para Firebase JS SDK v7.20.0 y posterior, measurementId es opcional
 const firebaseConfig = {
   apiKey: "AIzaSyCBmdD6nsYlkLgeKEGvIXAwkYY2NhypYgs",
   authDomain: "cropopoly-39788.firebaseapp.com",
@@ -17,7 +17,7 @@ const firebaseConfig = {
   measurementId: "G-RF3EH4LX5N"
 };
 
-// Initialize Firebase
+// Inicializa Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 export const auth = getAuth(app);
