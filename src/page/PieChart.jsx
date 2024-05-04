@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { ResponsivePie } from "@nivo/pie";
-//LOCALIDAD
+import React, { useEffect, useState } from "react"; // Importa React y los hooks necesarios
+import { ResponsivePie } from "@nivo/pie"; // Importa el componente de gráfico de pastel de Nivo
 
+// Función para calcular la ocurrencia de localidades
 const calculateLocalityOccurrences = (players) => {
   const localityOccurrences = {};
 
   players.forEach(player => {
-    const locality = player.estado || 'Unknown'; // Use 'Unknown' if locality is missing
+    const locality = player.estado || 'Unknown'; // Utiliza 'Unknown' si la localidad está ausente
     if (locality in localityOccurrences) {
       localityOccurrences[locality] += 1;
     } else {
@@ -17,10 +17,12 @@ const calculateLocalityOccurrences = (players) => {
   return localityOccurrences;
 };
 
+// Componente de gráfico de pastel
 const PieChart = () => {
-  const [gameData, setGameData] = useState(null);
-  const [localityOccurrences, setLocalityOccurrences] = useState(null);
+  const [gameData, setGameData] = useState(null); // Estado para los datos del juego
+  const [localityOccurrences, setLocalityOccurrences] = useState(null); // Estado para las ocurrencias de localidades
 
+  // Efecto para cargar los datos del juego
   useEffect(() => {
     fetch('https://cropopoly-server-production.up.railway.app/jugadores')
       .then(response => response.json())
@@ -28,6 +30,7 @@ const PieChart = () => {
       .catch(error => console.error('Error:', error));
   }, []);
 
+  // Efecto para calcular las ocurrencias de localidades cuando los datos del juego cambian
   useEffect(() => {
     if (gameData) {
       const occurrences = calculateLocalityOccurrences(gameData);
@@ -35,10 +38,12 @@ const PieChart = () => {
     }
   }, [gameData]);
 
+  // Si no hay datos del juego, muestra un mensaje de carga
   if (!gameData) {
     return <div>Loading...</div>;
   }
 
+  // Renderiza el gráfico de pastel si las ocurrencias de localidades están disponibles
   return (
     <div style={{ height: "400px" }}>
       <h2>GRÁFICA DE PASTEL LOCALIDADES</h2>
@@ -89,4 +94,4 @@ const PieChart = () => {
   );
 };
 
-export default PieChart;
+export default PieChart; // Exporta el componente PieChart
