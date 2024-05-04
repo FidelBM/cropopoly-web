@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { ResponsivePie } from "@nivo/pie";
-//TIPO DE FINANCIAMIENTO
+import React, { useEffect, useState } from "react"; // Importa React, useEffect y useState desde React
+import { ResponsivePie } from "@nivo/pie"; // Importa el componente ResponsivePie de la librería @nivo/pie
 
 const BarChartJ = () => {
-  const [gameData, setGameData] = useState(null);
-  const [financiamientoCounts, setFinanciamientoCounts] = useState({
+  const [gameData, setGameData] = useState(null); // Estado para almacenar los datos del juego
+  const [financiamientoCounts, setFinanciamientoCounts] = useState({ // Estado para almacenar el recuento de tipos de financiamiento
     verqor: 0,
     tradicional: 0,
     informal: 0,
@@ -12,11 +11,11 @@ const BarChartJ = () => {
   });
 
   useEffect(() => {
-    fetch('https://cropopoly-server-production.up.railway.app/jugadores')
+    fetch('https://cropopoly-server-production.up.railway.app/jugadores') // Realiza una solicitud HTTP para obtener los datos de los jugadores
       .then(response => response.json())
       .then(data => {
         setGameData(data);
-        calculateFinanciamientoCounts(data);
+        calculateFinanciamientoCounts(data); // Calcula el recuento de tipos de financiamiento cuando se cargan los datos
       })
       .catch(error => console.error('Error:', error));
   }, []);
@@ -30,7 +29,7 @@ const BarChartJ = () => {
     };
 
     data.forEach(item => {
-      if (item.Juego) {
+      if (item.Juego) { // Verifica si el jugador tiene datos de juego
         item.Juego.forEach(juego => {
           const tipoFinanciamiento = juego.tipoFinanciamiento ? juego.tipoFinanciamiento.toLowerCase() : null;
 
@@ -47,7 +46,7 @@ const BarChartJ = () => {
       }
     });
 
-    setFinanciamientoCounts(counts);
+    setFinanciamientoCounts(counts); // Actualiza el estado con el recuento de tipos de financiamiento
   };
 
   return (
@@ -99,4 +98,4 @@ const BarChartJ = () => {
   );
 };
 
-export default BarChartJ;
+export default BarChartJ; // Exporta el componente BarChartJ
