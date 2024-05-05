@@ -10,6 +10,9 @@ import { Link, useNavigate } from "react-router-dom"; // Importa Link y useNavig
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa FontAwesomeIcon desde Font Awesome
 import { faEye, faEyeSlash, faHeart, faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons'; // Importa iconos de Font Awesome
 import imagen from '../assets/Images/Fondo.png'; // Importa la imagen de fondo
+import {
+    LINK
+} from './config.js';
 
 function Login2() {
   const auth = useAuth(); // Obtiene la autenticación del contexto
@@ -35,7 +38,7 @@ function Login2() {
       await auth.login(email, password);
 
       // Realiza una solicitud para obtener los resultados del jugador y redirige al juego
-      const resultado = await fetch("https://cropopoly-server-production.up.railway.app/result", {
+      const resultado = await fetch(`${LINK}/result`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
