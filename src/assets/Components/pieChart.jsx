@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 import { ResponsivePie } from "@nivo/pie";
 import {
     LINK
-} from './config.js';
+} from '../../page/config.js';
 
 // Función para calcular la cantidad de jugadores por localidad
 const calculateLocalityOccurrences = (players) => {
