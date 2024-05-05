@@ -5,13 +5,16 @@ El código hace una grafica de linea para las fechas de nacimiento de los jugado
 */
 import React, { useEffect, useState } from "react"; // Importa React, useEffect y useState desde React
 import { ResponsiveLine } from "@nivo/line"; // Importa ResponsiveLine desde la librería Nivo
+import {
+    LINK
+} from './config.js';
 
 const LineChart = () => {
   const [gameData, setGameData] = useState(null); // Estado para almacenar los datos del juego
   const [ageFrequencies, setAgeFrequencies] = useState([]); // Estado para almacenar las frecuencias de edad
 
   useEffect(() => {
-    fetch('https://cropopoly-server-production.up.railway.app/jugadores') // Realiza una solicitud HTTP para obtener los datos de los jugadores
+    fetch(`${LINK}/jugadores`) // Realiza una solicitud HTTP para obtener los datos de los jugadores
       .then(response => response.json())
       .then(data => setGameData(data)) // Almacena los datos del juego en el estado
       .catch(error => console.error('Error:', error));
