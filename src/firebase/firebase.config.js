@@ -1,7 +1,7 @@
 /*
 Autor:            Fidel Bonilla
 
-El código es la coreccion de Firebase con las credenciales
+El código es la conexión de Firebase con las credenciales
 */
 // Importa las funciones que necesitas de los SDK que necesitas
 import { initializeApp } from "firebase/app";
