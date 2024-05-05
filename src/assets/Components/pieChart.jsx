@@ -1,5 +1,8 @@
+/*
+Autor:            Estefanía Rico
 
-// Autor:      Estefania Rico
+El código es una grafica de pastel para mostrar los paises en lo que juegan las perosnas
+*/
 import React, { useEffect, useState } from "react";
 import { ResponsivePie } from "@nivo/pie";
 
