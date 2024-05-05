@@ -10,6 +10,9 @@ import { Link, useNavigate } from "react-router-dom"; // Importa Link y useNavig
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa FontAwesomeIcon
 import { faEye, faEyeSlash, faHeart, faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons'; // Importa iconos de FontAwesome
 import imagen from '../assets/Images/NuevoFondo.png'; // Importa una imagen
+import {
+    LINK
+} from './config.js';
 
 // Componente Registro
 function Registro() {
@@ -41,7 +44,7 @@ function Registro() {
             // Genera un ID de juego aleatorio
             const gameId = generateGameId();
             // Realiza una solicitud para registrar al usuario en el servidor
-            const response = await fetch("https://cropopoly-server-production.up.railway.app/jugadores", {
+            const response = await fetch(`${LINK}/jugadores`, {
               method: "POST",
               headers: {
                 "Content-Type": "application/json"
