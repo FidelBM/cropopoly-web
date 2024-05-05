@@ -5,6 +5,9 @@ El código hace un grafico de barras para mostrar el tipo de financiamiento
 */
 import React, { useEffect, useState } from "react"; // Importa React, useEffect y useState desde React
 import { ResponsivePie } from "@nivo/pie"; // Importa el componente ResponsivePie de la librería @nivo/pie
+import {
+    LINK
+} from './config.js';
 
 const BarChartJ = () => {
   const [gameData, setGameData] = useState(null); // Estado para almacenar los datos del juego
@@ -16,7 +19,7 @@ const BarChartJ = () => {
   });
 
   useEffect(() => {
-    fetch('https://cropopoly-server-production.up.railway.app/jugadores') // Realiza una solicitud HTTP para obtener los datos de los jugadores
+    fetch(`${LINK}/jugadores`) // Realiza una solicitud HTTP para obtener los datos de los jugadores
       .then(response => response.json())
       .then(data => {
         setGameData(data);
