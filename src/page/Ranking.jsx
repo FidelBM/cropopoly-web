@@ -6,6 +6,9 @@ El código muestra el Rankin de los jugadores tomando el cuenta las monedas de c
 import React, { useEffect, useState } from "react"; // Importa React y los hooks necesarios
 import Box from '@mui/material/Box'; // Importa el componente Box de Material-UI
 import { DataGrid } from '@mui/x-data-grid'; // Importa el componente DataGrid de Material-UI
+import {
+    LINK
+} from './config.js';
 
 // Componente de Ranking
 const Ranking = () => {
@@ -14,7 +17,7 @@ const Ranking = () => {
 
   // Efecto para cargar los datos del juego y calcular el ranking
   useEffect(() => {
-    fetch('https://cropopoly-server-production.up.railway.app/jugadores')
+    fetch(`${LINK}/jugadores`)
       .then(response => response.json())
       .then(data => {
         if (data) {
