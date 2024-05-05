@@ -5,6 +5,9 @@ El código es para generar grafica de barras de género
 */
 import React, { useEffect, useState } from "react"; // Importa React, useEffect y useState desde React
 import { ResponsiveWaffle } from "@nivo/waffle"; // Importa el componente ResponsiveWaffle de la librería @nivo/waffle
+import {
+    LINK
+} from './config.js';
 
 const PlayerGenderStatistics = () => {
   const [gameData, setGameData] = useState(null); // Estado para almacenar los datos del juego
@@ -12,7 +15,7 @@ const PlayerGenderStatistics = () => {
 
   useEffect(() => {
     // Efecto de lado para cargar los datos del juego cuando el componente se monta
-    fetch("https://cropopoly-server-production.up.railway.app/jugadores")
+    fetch(`${LINK}/jugadores`)
       .then((response) => response.json())
       .then((data) => {
         setGameData(data);
