@@ -5,6 +5,9 @@ El código es una grafica de pastel para mostrar los paises en lo que juegan las
 */
 import React, { useEffect, useState } from "react";
 import { ResponsivePie } from "@nivo/pie";
+import {
+    LINK
+} from './config.js';
 
 // Función para calcular la cantidad de jugadores por localidad
 const calculateLocalityOccurrences = (players) => {
@@ -31,7 +34,7 @@ const PieChart = () => {
 
   // Efecto para cargar los datos del juego desde la API
   useEffect(() => {
-    fetch('https://cropopoly-server-production.up.railway.app/jugadores')
+    fetch(`${LINK}/jugadores`)
       .then(response => response.json())
       .then(data => setGameData(data))
       .catch(error => console.error('Error:', error));
