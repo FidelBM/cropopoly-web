@@ -8,6 +8,9 @@ import { Unity, useUnityContext } from "react-unity-webgl"; // Importa Unity y u
 import { Link } from "react-router-dom"; // Importa Link desde React Router DOM
 
 import { authContext } from "../context/authContext"; // Importa el contexto de autenticación
+import {
+    LINK
+} from './config.js';
 
 function Game() {
   
@@ -16,7 +19,7 @@ function Game() {
 
   useEffect(() => {
     if (user) { // Verifica si hay un usuario autenticado
-      fetch(`https://cropopoly-server-production.up.railway.app/jugadores?email=${user.email}`) // Realiza una solicitud HTTP para obtener los datos del usuario
+      fetch(`${LINK}/jugadores?email=${user.email}`) // Realiza una solicitud HTTP para obtener los datos del usuario
         .then(response => response.json())
         .then(data => {
           if (data.length > 0) {
