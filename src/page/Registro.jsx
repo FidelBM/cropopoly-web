@@ -11,7 +11,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa Fon
 import { faEye, faEyeSlash, faHeart, faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons'; // Importa iconos de FontAwesome
 import imagen from '../assets/Images/NuevoFondo.png'; // Importa una imagen
 import {
-    LINK
+    LINK,
+    LINK_JUEGO
 } from './config.js';
 
 // Componente Registro
@@ -59,7 +60,7 @@ function Registro() {
               })
             });
             // Redirige al usuario a la página del juego
-            window.location.href = 'https://cropopoly-game-production.up.railway.app/';
+            window.location.href = LINK_JUEGO;
             // Maneja errores si la respuesta no es exitosa
             if (!response.ok) {
               throw new Error("Hubo un problema al registrar. Por favor, inténtelo de nuevo.");
