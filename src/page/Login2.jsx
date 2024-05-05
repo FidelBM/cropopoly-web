@@ -12,7 +12,7 @@ import { faEye, faEyeSlash, faHeart, faUser, faCartShopping } from '@fortawesome
 import imagen from '../assets/Images/Fondo.png'; // Importa la imagen de fondo
 import {
     LINK
-} from './config.js';
+} from '../configuracion.js';
 
 function Login2() {
   const auth = useAuth(); // Obtiene la autenticación del contexto
