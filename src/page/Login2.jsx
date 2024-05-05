@@ -11,7 +11,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa Fon
 import { faEye, faEyeSlash, faHeart, faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons'; // Importa iconos de Font Awesome
 import imagen from '../assets/Images/Fondo.png'; // Importa la imagen de fondo
 import {
-    LINK
+    LINK,
+    LINK_JUEGO
 } from '../configuracion.js';
 
 function Login2() {
@@ -47,7 +48,7 @@ function Login2() {
           email: email,
         }),
       });
-      window.location.href = 'https://cropopoly-game-production.up.railway.app/';
+      window.location.href = LINK_JUEGO;
     } catch (error) {
       console.error("Error al iniciar sesión:", error);
       setError(
