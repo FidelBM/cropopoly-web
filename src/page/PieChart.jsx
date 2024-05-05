@@ -5,6 +5,9 @@ El código es una grafica de pastel de las localidades de los jugadores
 */
 import React, { useEffect, useState } from "react"; // Importa React y los hooks necesarios
 import { ResponsivePie } from "@nivo/pie"; // Importa el componente de gráfico de pastel de Nivo
+import {
+    LINK
+} from './config.js';
 
 // Función para calcular la ocurrencia de localidades
 const calculateLocalityOccurrences = (players) => {
@@ -29,7 +32,7 @@ const PieChart = () => {
 
   // Efecto para cargar los datos del juego
   useEffect(() => {
-    fetch('https://cropopoly-server-production.up.railway.app/jugadores')
+    fetch(`${LINK}/jugadores`)
       .then(response => response.json())
       .then(data => setGameData(data))
       .catch(error => console.error('Error:', error));
