@@ -13,7 +13,7 @@ import imagen from '../assets/Images/Fondo.png'; // Importa la imagen de fondo
 import {
     LINK,
     LINK_JUEGO
-} from '../configuracion.js';
+} from './config.js';
 
 function Login2() {
   const auth = useAuth(); // Obtiene la autenticación del contexto
